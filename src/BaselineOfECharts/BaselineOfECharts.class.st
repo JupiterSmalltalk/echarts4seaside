@@ -23,6 +23,6 @@ BaselineOfECharts class >> loadLepiter [
 BaselineOfECharts >> baseline: spec [
 	<baseline>
 		^ spec for: #common do: [
-			spec package: 'ECharts'
+			spec package: 'ECharts-Core'
 		]
 ]
